@@ -70,7 +70,7 @@ async Login(senha, idCliente){
         throw new Error("senha ou senha invalido")
     }
 
-    return jwt.sign({id: pessoa.id}, 'segredo', { expiresIn: 60 * 60})
+    return jwt.sign({id: filmeslocados.id}, 'segredo', { expiresIn: 60 * 60})
    
 }
 

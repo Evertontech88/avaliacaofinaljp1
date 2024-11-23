@@ -1,11 +1,11 @@
 const database = require('../config/database')
 
  
-class ModelCliente {
+class ModelFilmeslocados {
 
     constructor() {
 
-        this.model = database.db.define('filmes',{
+        this.model = database.db.define('filmeslocados',{
             id: {
                 type:database.db.Sequelize.INTEGER,
                 primaryKey: true,
@@ -28,4 +28,4 @@ class ModelCliente {
     }
  }
 
-module.exports = new ModelFilmelocados().model
+module.exports = new ModelFilmeslocados().model

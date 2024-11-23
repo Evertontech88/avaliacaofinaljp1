@@ -1,5 +1,5 @@
 const express = require('express')
-const ControllerFilmeslocados = require('../controllers/filmeslocaddos')
+const ControllerFilmeslocados = require('../controllers/filmeslocados')
 const auth = require ("../middleware/auth")
 
 // iniciaçizando as rotas do express
